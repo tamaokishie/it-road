@@ -8,22 +8,39 @@ header h1{
         padding: 20px 40px;
 }
 
-#siteHeader{
+#siteHead{
     display: none;
-    
 }
 
 /* main */
-.visual{
+.visual {
     margin: 100px;
     padding: 50px;
+}
+
+.visual p{
+    font-size: x-large;
 }
 
 .visual h1 {
     font-size: 150px;
     margin: 0;
     padding: 0;
+    animation: SlideIn 2s;
 }
+
+  
+  /* CSSアニメーションの設定 */
+  @keyframes SlideIn {
+    0% {
+      opacity: 0;/*初期状態では透明に*/
+      transform: translateX(640px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
 .home main section {
     display: flex;
@@ -33,6 +50,10 @@ header h1{
 .home main section div {
     padding-top: 200px;
     margin-left: 50px;
+}
+
+.home main section:nth-child(2){
+    flex-direction: row-reverse;
 }
 
 /* footer */
