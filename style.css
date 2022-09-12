@@ -1,0 +1,54 @@
+header h1{
+    color: rgb(241, 83, 15);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 40px;
+}
+
+#siteHeader{
+    display: none;
+    
+}
+
+/* main */
+.visual{
+    margin: 100px;
+    padding: 50px;
+}
+
+.visual h1 {
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.home main section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.home main section div {
+    padding-top: 200px;
+    margin-left: 50px;
+}
+
+/* footer */
+footer {
+    color: rgb(246, 246, 246);
+    background: #121313;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+}
+dd a {
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+}
